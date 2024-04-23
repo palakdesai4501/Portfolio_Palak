@@ -1,10 +1,10 @@
-import React from "react";
-import { SocialIcon } from "react-social-icons";
-import { motion } from "framer-motion";
+import React from 'react'
+import { motion } from 'framer-motion'
+import { SocialIcon } from 'react-social-icons'
 
-type Props = {};
+type Props = {}
 
-export default function Header({}: Props) {
+const Header = (props: Props) => {
   return (
     <header className="sticky top-0 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center p-5">
       <motion.div 
@@ -66,5 +66,7 @@ export default function Header({}: Props) {
         </p>
       </motion.div>
     </header>
-  );
+  )
 }
+
+export default Header
