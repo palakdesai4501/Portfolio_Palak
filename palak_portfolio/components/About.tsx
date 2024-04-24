@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import React from "react";
-import palak_profile from "../public/About_Profile.jpg";
 
 type Props = {};
 
