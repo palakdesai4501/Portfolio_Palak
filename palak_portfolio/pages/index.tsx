@@ -18,12 +18,12 @@ const index = (props: Props) => {
     <Header />
 
     {/* Hero */}
-    <section id="hero" className="snap-start">
+    <section id="hero" className="snap-center">
       <Hero />
     </section>
 
     {/* About */}
-    <section id="about" className="snap-center">
+    <section id="about" className="snap-start">
       <About />
     </section>
 
