@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 type Props = {}
 
-const Hero = (props: Props) => {
+export default function Hero({}: Props) {
     const [text, count] = useTypewriter({
         words: [
             "Hi! I am Palak Desai",
@@ -47,8 +47,8 @@ const Hero = (props: Props) => {
                 <button className="heroButton">Projects</button>
             </Link>
         </div>
-    </div>
+    </div> 
   )
 }
 
-export default Hero
+

@@ -1,9 +1,9 @@
-import React from "react";
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion'
+import React from 'react'
 
-type Props = {};
+type Props = {}
 
-const ExperienceCard = (props: Props) => {
+export default function ExperienceCard({}: Props) {
   return (
     <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 
     w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] 
@@ -53,7 +53,5 @@ const ExperienceCard = (props: Props) => {
         </ul>
       </div>
     </article>
-  );
-};
-
-export default ExperienceCard;
+  )
+}

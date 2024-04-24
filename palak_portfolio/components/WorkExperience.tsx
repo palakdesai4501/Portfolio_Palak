@@ -1,10 +1,10 @@
-import { motion } from "framer-motion";
-import React from "react";
-import ExperienceCard from "./ExperienceCard";
+import React from 'react'
+import ExperienceCard from './ExperienceCard'
+import { motion } from 'framer-motion'
 
-type Props = {};
+type Props = {}
 
-const WorkExperience = (props: Props) => {
+export default function WorkExperience({}: Props) {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -25,7 +25,5 @@ const WorkExperience = (props: Props) => {
 
       </div>
     </motion.div>
-  );
-};
-
-export default WorkExperience;
+  )
+}
