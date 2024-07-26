@@ -4,7 +4,9 @@ type Props = {}
 
 function Projects({}: Props) {
   return (
-    <div>Projects</div>
+    <div className='h-screen relative'>
+        <h3>Projects</h3>
+    </div>
   )
 }
 
