@@ -22,7 +22,9 @@ function Skills({}: Props) {
         Hover over a skill for currency profieciency
       </h3>
 
-      <div className="grid grid-cols-4 gap-5 mt-52">
+      <div className="grid grid-cols-4 gap-5 mt-52" style={{
+        marginTop: "200px!important"
+      }}>
         <Skill />
         <Skill />
         <Skill />
