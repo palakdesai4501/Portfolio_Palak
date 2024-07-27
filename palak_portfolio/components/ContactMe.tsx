@@ -1,5 +1,5 @@
 import React from 'react'
-import { PhoneIcon, MapIcon, EnvelopeIcon } from '@heroicons/react/16/solid'
+import { PhoneIcon, MapIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/16/solid'
 
 type Props = {}
 
@@ -15,7 +15,20 @@ function ContactMe({}: Props) {
         </h4>
 
         <div>
-          <PhoneIcon />
+          <div className='flex items-center space-x-5 justify-center'>
+            <PhoneIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse'/>
+            <p className='text-2xl'>+14376690174</p>
+          </div>
+
+          <div className='flex items-center space-x-5 justify-center'>
+            <EnvelopeIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse'/>
+            <p className='text-2xl'>+14376690174</p>
+          </div>
+
+          <div className='flex items-center space-x-5 justify-center'>
+            <MapPinIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse'/>
+            <p className='text-2xl'>539 Campbell Ave</p>
+          </div>
         </div>
       </div>
     </div>
